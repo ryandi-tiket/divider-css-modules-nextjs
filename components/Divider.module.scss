@@ -1,0 +1,27 @@
+.tix-divider {
+  &.default {
+    border-top: 1px solid gray;
+  }
+
+  &.bold {
+    border-top: 6px solid gray;
+  }
+
+  &.dashed {
+    border-top: 1px dashed gray;
+  }
+}
+
+.tix-divider-vertical {
+  &.default {
+    border-left: 1px solid gray;
+  }
+
+  &.bold {
+    border-left: 6px solid gray;
+  }
+
+  &.dashed {
+    border-left: 1px dashed gray;
+  }
+}
